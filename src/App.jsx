@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <AddTodo addTodos={addTodos}/>
-      <TodoList todos={todos} />
+      <TodoList todos={todos} setTodos={setTodos}/>
     </>
   )
 }
